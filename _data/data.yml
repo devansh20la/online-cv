@@ -91,10 +91,10 @@ projects:
 
 publications:
     title: Publications
-    intro: |
+    intro: 
 
     papers:
-      - title: Towards Automated Melanoma Detection with Deep Learning: Data Purification and Augmentation.
+      - title: Towards Automated Melanoma Detection with Deep Learning Data Purification and Augmentation.
         authors: Devansh Bisla, Anna Choromanska, Jennifer A. Stein, David Polsky, Russell Berman
         conference: CVPR, 2018
 
