@@ -13,16 +13,11 @@ sidebar:
 
     # Sidebar links
     email: db3484@nyu.com
-    phone: 012 345 6789
     website: devanshbisla.com #do not add http://
     linkedin: devansh20la
     github: devansh20la
-    gitlab:
-    bitbucket:
     twitter: '@devansh20la'
     stack-overflow: # Number/Username, e.g. 123456/alandoe
-    codewars:
-    goodreads: # Number-Username, e.g. 123456-alandoe
 
     languages:
       - idiom: Hindi
@@ -39,18 +34,18 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
+      I'm a PhD student at the Machine Learning Lab, Department of Electrical Engineering, 
+      New York University.
 
 education:
     - degree: PhD in Electrical Engineering
       university: New York University
       time: 2018 - Present
-      details: |
-        I work under the aegis of Dr Anna Choromanska
-
+      details: 
     - degree: Masters in Electrical Engineering
       university: New York University
       time: 2016 - 2018
-      details: |
+      details: 
 
 
 experiences:
@@ -58,8 +53,12 @@ experiences:
       time: Summer, 2018
       company: Hearst, New York
       details: |
-
-
+        - Incorporated content based image retrieval into Hearst's digital asset management 
+        system consisting of over 13 million images. We utilized a product quantizer based 
+        nearest neighbor search on image features extracted from deep models pre-trained on 
+        ImageNet.
+        - Developed an efficient image visualization and tagging tool that utilizes 
+        t-distributed stochastic neighbor embedding (t-SNE).
 
 projects:
     title: Projects
