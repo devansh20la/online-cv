@@ -1,0 +1,27 @@
+{% assign invitedtalks = site.data.data.invitedtalks %}
+{% if invitedtalks %}
+<section class="section invitedtalks-section">
+
+  <h2 class="section-title">
+    <span class="fa-stack fa-xs">
+      <i class="fas fa-circle fa-stack-2x"></i>
+      <i class="fas fa-file-alt fa-stack-1x fa-inverse"></i>
+    </span>
+    {{ invitedtalks.title }}
+  </h2>
+
+  {% if invitedtalks.intro %}
+  <div class="intro">
+    {{ invitedtalks.intro | markdownify }}
+  </div><!--//intro-->
+  {% endif %}
+
+  {% for invitedtalks in invitedtalks.papers %}
+  <div class="item">
+    <div class="invitedtalks-title">{{ invitedtalks.title }}</div>
+    <div class="invitedtalks-authors">{{ invitedtalks.authors }}</div>
+  </div><!--//item-->
+  {% endfor %}
+
+</section><!--//section-->
+{% endif %}

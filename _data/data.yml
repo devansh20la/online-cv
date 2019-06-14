@@ -3,8 +3,8 @@
 #
 
 sidebar:
-    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
-    education: True # set to False if you want education in main section instead of in sidebar
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    education: False # set to False if you want education in main section instead of in sidebar
 
     # Profile information
     name: Devansh Bisla
@@ -38,15 +38,26 @@ career-profile:
       New York University.
 
 education:
-    - degree: PhD in Electrical Engineering
+    - degree: PhD, Electrical Engineering
       university: New York University
       time: 2018 - Present
-      details: 
-    - degree: Masters in Electrical Engineering
+      details: |
+       - Awarded the School of Engineering Fellowship.
+
+    - degree: M.S., Electrical Engineering
       university: New York University
       time: 2016 - 2018
-      details: 
-
+      details: |
+        - MS Thesis: "Beating Melanoma with Deep Learning: letting the data speak".
+        - Awarded Graduate Student Scholarship.
+        - with Dr. Yao Wang "High Frequency Ultrasound Image Segmentation and Analysis".
+        - with Dr. Anna Choromanska "VisualBackProp for learning using privileged information with CNNs".
+    - degree: B.E., Electronics and Communication
+      university: Manipal University
+      time: 2012 - 2016
+      details: |
+        - Semester Exchange Student at IIT Kanpur with Dr. K. S Venkatesh, IIT Kanpur "Estimation of Road Traffic Parameters from an unmanned aerial vehicle".
+        - with Dr. Kanthi "Computation of Blood Alcohol Level using breath analyzer".
 
 experiences:
     - role: Machine Learning Intern
@@ -61,33 +72,18 @@ experiences:
         t-distributed stochastic neighbor embedding (t-SNE).
 
 projects:
-    title: Projects
+    title: Recent Projects
     intro: >
-      You can list your side projects or open source libraries in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
 
     assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+      - title: VisualBackProp for learning using privileged information with CNNs
+        link: https://github.com/devansh20la/VisualBackprop
+        tagline: Proposed a novel training paradigm for CNNs based on learning using privileged information (LUPI) previously proposed for SVMs. Segmentation mask of an image was incorporated into training by augmenting the CNN with components to focus model's attention on the desired region of the input image. Proposed algorithms was verified through experiments on ImageNet and PASCAL VOC data sets and performance improvements of 2.4% and 2.7% over standard single-supervision model were obtained.
 
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
-
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
-
+      - title: High Frequency Ultrasound Image Segmentation and Analysis
+        link: https://github.com/devansh20la/MedViewer
+        tagline: Trained an Active Shape Model to segment brain ventricles of a mouse embryo from its high frequency 3D Ultrasound image. The shape of the brain ventricle was described using a shape context descriptor while principle component analysis was used to generate the model.
+ 
 publications:
     title: Publications
     intro: 
@@ -97,12 +93,16 @@ publications:
         authors: Devansh Bisla, Anna Choromanska, Jennifer A. Stein, David Polsky, Russell Berman
         conference: CVPR, 2018
 
+
 skills:
     title: Skills &amp; Proficiency
 
     toolset:
       - name: Python
-        level: 98%
+        level: 90%
+
+      - name: MATLAB
+        level: 90%
 
       - name: C
         level: 98%
@@ -110,5 +110,7 @@ skills:
       - name: C++
         level: 98%
 
+      - name: SQL
+        level: 80%
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a> and shamelessly copied by me.
