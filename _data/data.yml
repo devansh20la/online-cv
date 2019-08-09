@@ -34,7 +34,7 @@ sidebar:
 career-profile:
     title: Career Profile
     summary:
-      I'm a PhD student at the Machine Learning Lab, Department of Electrical Engineering, 
+      I'm a PhD student at the Machine Learning Lab under the aegis of Dr Anna Choromanska, Department of Electrical Engineering, 
       New York University.
 
 education:
@@ -73,12 +73,12 @@ experiences:
 
 projects:
     title: Recent Projects
-    intro: >
-
+    intro: 
     assignments:
       - title: VisualBackProp for learning using privileged information with CNNs
-        link: https://github.com/devansh20la/VisualBackprop
-        tagline: Proposed a novel training paradigm for CNNs based on learning using privileged information (LUPI) previously proposed for SVMs. Segmentation mask of an image was incorporated into training by augmenting the CNN with components to focus model's attention on the desired region of the input image. Proposed algorithms was verified through experiments on ImageNet and PASCAL VOC data sets and performance improvements of 2.4% and 2.7% over standard single-supervision model were obtained.
+        link: https://arxiv.org/abs/1805.09474
+        details: |
+          Proposed a novel training paradigm for CNNs based on learning using privileged information (LUPI) previously proposed for SVMs. Segmentation mask of an image was incorporated into training by augmenting the CNN with components to focus model's attention on the desired region of the input image. Proposed algorithms was verified through experiments on ImageNet and PASCAL VOC data sets and performance improvements of 2.4% and 2.7% over standard single-supervision model were obtained.
 
       - title: High Frequency Ultrasound Image Segmentation and Analysis
         link: https://github.com/devansh20la/MedViewer
