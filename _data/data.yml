@@ -3,8 +3,8 @@
 #
 
 sidebar:
-    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
-    education: False # set to False if you want education in main section instead of in sidebar
+    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
     name: Devansh Bisla
@@ -12,7 +12,7 @@ sidebar:
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: db3484@nyu.com
+    email: db3484@nyu.edu
     website: devanshbisla.com #do not add http://
     linkedin: devansh20la
     github: devansh20la
@@ -34,8 +34,8 @@ sidebar:
 career-profile:
     title: Career Profile
     summary:
-      I'm a PhD student at the Machine Learning Lab under the aegis of Dr Anna Choromanska, Department of Electrical Engineering, 
-      New York University.
+      I'm a PhD student under the aegis of Dr. Anna Choromanska at the Machine Learning Lab,
+      Department of Electrical Engineering, New York University.
 
 education:
     - degree: PhD, Electrical Engineering
@@ -72,17 +72,40 @@ experiences:
         t-distributed stochastic neighbor embedding (t-SNE).
 
 projects:
-    title: Recent Projects
+    title: Projects
     intro: 
     assignments:
-      - title: VisualBackProp for learning using privileged information with CNNs
-        link: https://arxiv.org/abs/1805.09474
+      - title: Estimating Sample Complexity in Deep Neural Networks
         details: |
-          Proposed a novel training paradigm for CNNs based on learning using privileged information (LUPI) previously proposed for SVMs. Segmentation mask of an image was incorporated into training by augmenting the CNN with components to focus model's attention on the desired region of the input image. Proposed algorithms was verified through experiments on ImageNet and PASCAL VOC data sets and performance improvements of 2.4% and 2.7% over standard single-supervision model were obtained.
+          - Training deep learning models require manual tuning of large number of 
+            hyper-parameters which requires large computational resources thus, 
+            unreasonable for massive training data sizes. We aim to present a practical 
+            and predictive probabilistic method to model the relationship between training 
+            data sizes and misclassification rate.
+
+      - title: VisualBackProp for learning using privileged information with CNNs
+        link: https://bit.ly/2YV5uP4
+        details: |
+          - Proposed a novel training paradigm for CNNs based on learning using privileged 
+            information (LUPI) previously proposed for SVMs. Segmentation mask of an image was 
+            incorporated into training by augmenting the CNN with components to focus model's 
+            attention on the desired region of the input image. Proposed algorithms was verified 
+            through experiments on ImageNet and PASCAL VOC data sets and performance improvements 
+            of 2.4% and 2.7% over standard single-supervision model were obtained.
+
+      - title: Towards Automated Melanoma Detection with Deep Learning:Data Purification and Augmentation
+        link: https://bit.ly/2GV8PYn
+        details: |
+          - Proposed a data preparation strategy to tackle detrimental effects of biased data-sets 
+            on deep learning models. We demonstrate its effectiveness on ISIC 2017 and 2018 grand challenge.
 
       - title: High Frequency Ultrasound Image Segmentation and Analysis
         link: https://github.com/devansh20la/MedViewer
-        tagline: Trained an Active Shape Model to segment brain ventricles of a mouse embryo from its high frequency 3D Ultrasound image. The shape of the brain ventricle was described using a shape context descriptor while principle component analysis was used to generate the model.
+        details: |
+          - Trained an Active Shape Model to segment brain ventricles of a mouse embryo from 
+            its high frequency 3D Ultrasound image. The shape of the brain ventricle was described 
+            using a shape context descriptor while principle component analysis was used to 
+            generate the model.
  
 publications:
     title: Publications
@@ -92,6 +115,9 @@ publications:
       - title: Towards Automated Melanoma Detection with Deep Learning Data Purification and Augmentation.
         authors: Devansh Bisla, Anna Choromanska, Jennifer A. Stein, David Polsky, Russell Berman
         conference: CVPR, 2018
+      - title: VisualBackProp for learning using privileged information with CNNs
+        authors: Devansh Bisla, Anna Choromanska
+        conference: Arxiv, 2018
 
 
 skills:
