@@ -8,12 +8,12 @@ sidebar:
 
     # Profile information
     name: Devansh Bisla
-    tagline: Phd Student
+    tagline: Phd Candidate, NYU
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
     email: db3484@nyu.edu
-    website: devanshbisla.com #do not add http://
+    scholar: devanshbisla
     linkedin: devansh20la
     github: devansh20la
     twitter: '@devansh20la'
@@ -72,32 +72,36 @@ experiences:
         t-distributed stochastic neighbor embedding (t-SNE).
 
 projects:
-    title: Projects
+    title: Research experience
     intro: 
     assignments:
       - title: Estimating Sample Complexity in Deep Neural Networks
         details: |
-          - Training deep learning models require manual tuning of large number of 
-            hyper-parameters which requires large computational resources thus, 
-            unreasonable for massive training data sizes. We aim to present a practical 
-            and predictive probabilistic method to model the relationship between training 
-            data sizes and misclassification rate.
+          - The most common and effective strategy in deep learning to improve performance and 
+            reduce generalization error is to collect more training data \textit{but} the 
+            fundamental question: "how much data do we need to achieve certain desirable 
+            performance?" still remains open. We aim to present a practical and predictive 
+            probabilistic method to model the relationship between training data sizes and 
+            misclassification rate.
 
       - title: VisualBackProp for learning using privileged information with CNNs
         link: https://bit.ly/2YV5uP4
         details: |
           - Proposed a novel training paradigm for CNNs based on learning using privileged 
-            information (LUPI) previously proposed for SVMs. Segmentation mask of an image was 
-            incorporated into training by augmenting the CNN with components to focus model's 
-            attention on the desired region of the input image. Proposed algorithms was verified 
-            through experiments on ImageNet and PASCAL VOC data sets and performance improvements 
-            of 2.4% and 2.7% over standard single-supervision model were obtained.
+            information (LUPI) previously proposed for SVMs. Priviledge information 
+            (segmentation mask) was incorporated into training by additional loss functions 
+            to focus model's attention on the desired region of the input image. Proposed 
+            method was verified through experiments on ImageNet and PASCAL VOC data sets and 
+            performance improvements of 2.4% and 2.7% over standard single-supervision 
+            model were obtained.
 
       - title: Towards Automated Melanoma Detection with Deep Learning:Data Purification and Augmentation
         link: https://bit.ly/2GV8PYn
         details: |
           - Proposed a data preparation strategy to tackle detrimental effects of biased data-sets 
-            on deep learning models. We demonstrate its effectiveness on ISIC 2017 and 2018 grand challenge.
+            on deep learning models. We utilized partial convolutions for removal of occlusions 
+            and synthetic data generation through coupled GAN to balance disease classes. We demonstrate 
+            its effectiveness on ISIC 2017 and 2018 grand challenge.
 
       - title: High Frequency Ultrasound Image Segmentation and Analysis
         link: https://github.com/devansh20la/MedViewer
